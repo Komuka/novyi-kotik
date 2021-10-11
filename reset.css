@@ -1,0 +1,148 @@
+body { -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;}
+
+h1 {
+font-size: 50px;
+color: #7d512d;
+margin-top: 67px;
+font-size: 38px;
+line-height: 45px;
+}
+h2 {
+font-size: 25px;
+font-weight: normal;
+}
+.blockquote
+{font-style :  Italic;
+padding: 2%;
+margin-left :2%;
+background: #eeeeee;
+}
+h4 {
+font-size: 22px
+}
+h5{
+font-size: 18px
+}
+
+img {
+  width: 300px;
+  margin: 30px auto 0;
+  padding: 0;
+}
+
+.ul-2{
+list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.sidebar h4
+{text-align: center;}
+
+.sidebar
+{
+  background: #eeeeee;
+ border: 1px solid #666666;
+  width: 30%;
+}
+nav{
+opacity: .1;
+transition: all .5s ease;
+}
+nav:hover {
+opacity: 1;
+transition: all .1s ease;
+}
+nav {
+
+background: #222222
+  width: 300px;
+  position: fixed;
+  top: 90px;
+  left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  display: block;
+  line-height: 10px;
+}
+nav a{
+  text-decoration: none;
+  line-height: 10px;
+}
+nav p{
+margin: 0;
+font-weight: bold;
+font-size: 14px!important;
+}
+nav a{
+text-decoration: none;
+font-size: 12px!important;
+line-height: 10px;
+}
+nav ul{
+list-style-type: none;
+width: 100%;
+line-height: 10px;
+}
+nav li{
+margin: 0 px 0;
+line-height: 10px;
+}
+.sidebar{
+  padding-left: 0px;
+}
+h1, h2, h3, p, ul,ol, blockquote, div, img { width: 700px; margin: 0 auto;
+}
+h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+}
+h1 { margin-top: 67px; font-size: 38px; line-height: 45px;
+}
+h1 + p { margin-top: 8px; font-family: 'PT Sans Caption', sans-serif; font-size: 22px; line-height: 32px; color: rgba(0,0,0,.4);
+}
+h1 + p + p { margin-top: 30px;
+}
+h2 { margin-top: 43px;
+font-size: 32px;
+line-height: 36px;
+color: rgba(0, 0, 0, .8);
+}
+h2 + p,
+h2 + blockquote { margin-top: 7px;
+}
+h3 { margin-top: 36px;
+font-size: 28px;
+line-height: 34px;
+color: rgba(0, 0, 0, .8);
+}
+
+h3 + p,
+h3 + blockquote {
+margin-top: 6px;
+}
+p, blockquote, li {
+margin-top: 29px;
+font-size: 20px;
+line-height: 34px;
+}
+blockquote {
+font-style: italic;
+}
+img {  width: 300px;
+margin: 30px auto 0;
+padding: 0;
+}
+img + h2 { margin-top: 79px;
+}
+img + p,
+img + blockquote,
+img + ul { margin-top: 77px;
+}
+h2 + img { margin-top: 82px;
+}
+h3 + img { margin-top: 81px;
+}
